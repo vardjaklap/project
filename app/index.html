@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Fitonia</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="libs/fontawesome-free-5.0.2/web-fonts-with-css/css/fontawesome-all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="libs/loading%20bar/loading-bar.css"/>
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="libs/loading%20bar/loading-bar.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+<nav>
+  <div class="wrap">
+    <div id="mainPage"><a href="#!/view1"><div class="navOverlay"><i class="fab fa-facebook-f fa-3x"></i></div></a></div>
+    <div id="sectionTwo"><div class="navOverlay"><i class="fab fa-sticker-mule fa-3x"></i></div></div>
+    <div id="sectionThree"><div class="navOverlay"><i class="far fa-edit fa-3x"></i></div></div>
+    <div id="sectionFour"><div class="navOverlay"><i class="fas fa-utensils fa-3x"></i></div></div>
+    <div id="sectionFive"><a href="#!/view2"><div class="navOverlay"><i class="fa fa-tint fa-3x" aria-hidden="true"></i></div></a></div>
+    <div id="sectionSix"><div class="navOverlay"><i class="fas fa-balance-scale fa-3x"></i></div></div>
+    <div id="sectionSeven"><div class="navOverlay"><i class="fas fa-exclamation-triangle fa-3x"></i></div></div>
+  </div>
+</nav>
+
+<div ng-view></div>
+
+
+
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+
+  <script src="app.js"></script>
+  <script src="view1/view1.js"></script>
+  <script src="view2/view2.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+</body>
+</html>
